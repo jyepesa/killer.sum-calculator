@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+label {
+  display: inline-block;
+  width: 70px;
+}
+#display {
+  border: solid 1px;
+  border-radius: 3px;
+  padding: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 400px;
+}
+#numInput {
+  width: 60px;
+}
+.secondaryInput, #with {
+  width: 40px
+}
+input {
+  margin: 2px 0;
+}
+#calculate {
+  display: block;
+  margin: 3px auto;
+  height: 2.5em;
+  width: 25%;
+  box-shadow: 2px 2px 2px grey;
+  position: relative;
+}
+#errorMessage {
+  color: red
+}
+span {
+  display: inline-block;
+}
+#calculate:active {
+  left: 2px;
+  top: 2px;
+  box-shadow: none;
+}
